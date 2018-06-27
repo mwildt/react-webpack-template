@@ -22,7 +22,10 @@ module.exports = {
                 loader: 'babel-loader',
                 options: {
                     presets: ['@babel/env', '@babel/react'],
-                    plugins: ["@babel/plugin-proposal-optional-chaining"]
+                    plugins: [
+                        '@babel/plugin-proposal-object-rest-spread',
+                        '@babel/plugin-proposal-optional-chaining'
+                    ]
                 }
             },
             {
