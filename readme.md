@@ -3,6 +3,8 @@
 ## Components
 
 * Babel 7
+  * Optional Chaining
+  * Spread Operator
 * Webpack 4
-* Bootstrap 4
 * React
+* Bootstrap 4
